@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms &amp; Conditions — Cleaner Pro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #1b1c1e;
+      --muted: #5b5f66;
+      --accent: #0a6b7d;
+      --accent-2: #f5b971;
+      --card: #ffffff;
+      --line: #e7e4de;
+      --bg: #f6f1ea;
+      --bg-2: #fef9f2;
+      --shadow: 0 18px 40px rgba(17, 18, 20, 0.08);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Space Grotesk', sans-serif;
+      color: var(--ink);
+      background: radial-gradient(
+          1200px 600px at 10% -10%,
+          #cfe7e2 0%,
+          transparent 60%
+        ),
+        radial-gradient(
+          900px 600px at 90% 0%,
+          #fde6c7 0%,
+          transparent 55%
+        ),
+        linear-gradient(180deg, var(--bg), var(--bg-2));
+      min-height: 100vh;
+      line-height: 1.7;
+    }
+
+    /* ── HEADER ── */
+    header {
+      padding: 56px 24px 24px;
+      max-width: 980px;
+      margin: 0 auto;
+    }
+    .eyebrow {
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(32px, 6vw, 56px);
+      margin: 12px 0 16px;
+    }
+    .subhead {
+      font-size: clamp(16px, 2.2vw, 20px);
+      color: var(--muted);
+      max-width: 720px;
+      line-height: 1.6;
+    }
+
+    /* ── LAYOUT ── */
+    main {
+      max-width: 980px;
+      margin: 0 auto 60px;
+      padding: 0 24px 24px;
+      display: grid;
+      gap: 20px;
+    }
+
+    /* ── SECTION CARDS ── */
+    .card {
+      background: var(--card);
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(231, 228, 222, 0.8);
+    }
+
+    .card h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--ink);
+      margin: 0 0 12px;
+    }
+
+    .card p {
+      font-size: 15px;
+      color: var(--ink);
+      margin-bottom: 12px;
+      line-height: 1.7;
+    }
+    .card p:last-child { margin-bottom: 0; }
+
+    .card ul {
+      margin: 0 0 12px 18px;
+      padding: 0;
+      color: var(--ink);
+      line-height: 1.7;
+    }
+    .card ul li {
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+
+    .accent-box {
+      border-left: 4px solid var(--accent);
+      padding: 16px 16px 16px 20px;
+      background: #f0fafb;
+      border-radius: 14px;
+      margin-top: 16px;
+    }
+    .accent-box p {
+      font-size: 14px;
+      color: #0a4a56;
+      margin: 0;
+    }
+
+    /* ── SUBSCRIPTION GRID ── */
+    .plan-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+    .plan-tile {
+      background: var(--bg);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 18px 20px;
+    }
+    .plan-tile .plan-name {
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+    .plan-tile p {
+      font-size: 14px;
+      color: var(--muted);
+      margin: 0;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      max-width: 980px;
+      margin: 0 auto 48px;
+      padding: 0 24px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 600px) {
+      .card { padding: 22px; }
+      header { padding-top: 40px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="eyebrow">Cleaner Pro</div>
+    <h1>Terms &amp; Conditions</h1>
+    <p class="subhead">Please read these Terms &amp; Conditions carefully before using Cleaner Pro. By downloading or using the app, you agree to be bound by these terms.</p>
+  </header>
+
+  <main>
+
+    <!-- 1. Acceptance -->
+    <div class="card">
+      <h2>1. Acceptance of Terms</h2>
+      <p>
+        These Terms &amp; Conditions ("Terms") govern your use of Cleaner Pro (the "App"), operated by Gaming Geek Studio ("we", "us", or "our"). By accessing or using the App, you confirm that you are at least 13 years old and that you accept these Terms in full.
+      </p>
+      <p>
+        We reserve the right to update these Terms at any time. Continued use of the App after changes constitutes acceptance of the revised Terms.
+      </p>
+    </div>
+
+    <!-- 2. Description of Service -->
+    <div class="card">
+      <h2>2. Description of Service</h2>
+      <p>
+        Cleaner Pro is an iOS application that helps users identify and remove unnecessary files from their photo library, including screenshots, duplicate photos, similar photos, screen recordings, large videos, and short videos. All processing is performed locally on your device.
+      </p>
+      <p>
+        The App is provided "as is" and we make no guarantee that it will always be available, error-free, or that specific features will be retained in future versions.
+      </p>
+    </div>
+
+    <!-- 3. Subscriptions -->
+    <div class="card">
+      <h2>3. Subscriptions &amp; Billing</h2>
+      <p>
+        Cleaner Pro offers optional auto-renewing subscriptions that unlock full access to all features. Subscriptions are managed through Apple's App Store and are subject to Apple's payment terms.
+      </p>
+
+      <div class="plan-grid">
+        <div class="plan-tile">
+          <div class="plan-name">Weekly</div>
+          <p>Renews every 7 days. Cancel any time before the renewal date.</p>
+        </div>
+        <div class="plan-tile">
+          <div class="plan-name">Monthly</div>
+          <p>Renews every 30 days. Cancel any time before the renewal date.</p>
+        </div>
+      </div>
+
+      <div class="accent-box">
+        <p>
+          <strong>Auto-Renewal Disclosure:</strong> Your subscription will automatically renew at the end of each period unless cancelled at least 24 hours before the renewal date. Your Apple ID account will be charged within 24 hours prior to the end of the current period. You can manage or cancel your subscription at any time in your iPhone Settings → Apple ID → Subscriptions.
+        </p>
+      </div>
+    </div>
+
+    <!-- 4. Free Trial -->
+    <div class="card">
+      <h2>4. Free Trial</h2>
+      <p>
+        We may offer a free trial period for new subscribers. The free trial provides full access to premium features for the stated trial duration.
+      </p>
+      <ul>
+        <li>Only one free trial is permitted per Apple ID per subscription type.</li>
+        <li>If you do not cancel before the trial ends, your subscription will automatically begin and your Apple ID will be billed.</li>
+        <li>Any unused portion of the free trial is forfeited upon purchasing a subscription.</li>
+      </ul>
+    </div>
+
+    <!-- 5. Refunds -->
+    <div class="card">
+      <h2>5. Refunds &amp; Cancellations</h2>
+      <p>
+        All purchases are processed by Apple through the App Store. We do not handle billing directly and cannot issue refunds ourselves.
+      </p>
+      <ul>
+        <li>To request a refund, contact Apple Support at <strong>reportaproblem.apple.com</strong>.</li>
+        <li>Cancelling a subscription stops future charges but does not generate a refund for the current billing period.</li>
+        <li>Premium access remains active until the end of the paid period after cancellation.</li>
+      </ul>
+    </div>
+
+    <!-- 6. User Responsibilities -->
+    <div class="card">
+      <h2>6. User Responsibilities</h2>
+      <p>You agree to use the App responsibly and in compliance with all applicable laws. You must not:</p>
+      <ul>
+        <li>Reverse-engineer, decompile, or attempt to extract the source code of the App.</li>
+        <li>Use the App for any unlawful, harmful, or fraudulent purpose.</li>
+        <li>Attempt to circumvent any subscription or premium access mechanism.</li>
+        <li>Remove, disable, or circumvent any proprietary notices or labels on the App.</li>
+      </ul>
+      <p>
+        You are solely responsible for any files you choose to delete using the App. Deleted items are moved to your device's "Recently Deleted" album and can be recovered within 30 days. We are not responsible for any permanent data loss.
+      </p>
+    </div>
+
+    <!-- 7. Intellectual Property -->
+    <div class="card">
+      <h2>7. Intellectual Property</h2>
+      <p>
+        All content, design, graphics, and code within the App are owned by or licensed to Gaming Geek Studio and are protected by applicable intellectual property laws. Nothing in these Terms grants you any right to use our trademarks, logos, or brand features.
+      </p>
+    </div>
+
+    <!-- 8. Privacy -->
+    <div class="card">
+      <h2>8. Privacy</h2>
+      <p>
+        Your privacy is important to us. The App processes your photo and video library locally on your device — no personal data or media is uploaded to our servers. Please refer to our full <a href="privacy_policy.html" style="color: var(--accent); font-weight: 600;">Privacy Policy</a> for details on how we handle your information.
+      </p>
+    </div>
+
+    <!-- 9. Disclaimers -->
+    <div class="card">
+      <h2>9. Disclaimers &amp; Limitation of Liability</h2>
+      <p>
+        The App is provided on an "as is" and "as available" basis without warranties of any kind, either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.
+      </p>
+      <p>
+        To the maximum extent permitted by applicable law, Gaming Geek Studio shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of — or inability to use — the App, even if we have been advised of the possibility of such damages.
+      </p>
+    </div>
+
+    <!-- 10. Governing Law -->
+    <div class="card">
+      <h2>10. Governing Law</h2>
+      <p>
+        These Terms shall be governed by and construed in accordance with applicable laws. Any disputes arising under these Terms shall be subject to the exclusive jurisdiction of the competent courts in the applicable jurisdiction.
+      </p>
+    </div>
+
+    <!-- 11. Contact -->
+    <div class="card">
+      <h2>11. Contact Us</h2>
+      <p>If you have any questions about these Terms, please contact us:</p>
+      <div class="accent-box">
+        <p><strong>Gaming Geek Studio</strong><br />
+        Email: <a href="mailto:gaminggeekstudio@gmail.com" style="color: var(--accent);">gaminggeekstudio@gmail.com</a></p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Gaming Geek Studio. All rights reserved.</p>
+    <p><a href="privacy_policy.html">Privacy Policy</a></p>
+  </footer>
+
+</body>
+</html>
